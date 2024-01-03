@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="5591f99c">
+        <description>Created after removal of "TestTables" from Involute Gears</description>
+        <accepts>TestTables.html</accepts>
+    </rule>
+    <rule id="33800a0d">
+        <description>Created after removal of "Snippets" from Involute Gears</description>
+        <accepts>Snippets.html</accepts>
+    </rule>
+    <rule id="20c2d277">
+        <description>Created after removal of "Snippets" from Involute Gears</description>
+        <accepts>Snippets.html</accepts>
+    </rule>
+    <rule id="1a573b26">
+        <description>Created after removal of "Snippets" from Involute Gears</description>
+        <accepts>Snippets.html</accepts>
+    </rule>
+    <rule id="37786bc7">
+        <description>Created after removal of "This is the first topic" from Involute Gears</description>
+        <accepts>Default-topic.html</accepts>
+    </rule>
+    <rule id="1515b27d">
+        <description>Created after removal of "Section Starting Page" from Involute Gears</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
+    <rule id="1353f480">
+        <description>Created after removal of "Profile Shifted Internal/External Spur Gears" from Involute Gears
+        </description>
+        <accepts>Profile-Shifted-Internal-External-Spur-Gears.html</accepts>
+    </rule>
+</rules>

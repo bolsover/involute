@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Helical Gear and Rack (Normal) " id="Helical-Gear-and-Rack-Normal">
+<link-summary>Example and formulae for Helical gear and rack in the normal system.</link-summary>
+    <chapter title="Helical Gear and Rack (Normal)" id="calculation-of-helical-gear_and_rack"
+             collapsible="true" default-state="expanded">
+        <note>The height of pitch line is the distance from the mounting face of the rack to the pitch line of the rack teeth.
+            The pitch line is located at a distance of <i><include from="Snippets.topic" element-id="h_a"></include></i>(addendum) from the top of the rack teeth.</note>
+        <table>
+            <tr>
+                <td>No.</td>
+                <td>Item</td>
+                <td>Symbol</td>
+                <td>Formula</td>
+                <td>Pinion</td>
+                <td>Gear</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Module</td>
+                <td>
+                    <include from="Snippets.topic" element-id="m_n"/>
+                </td>
+                <td>-</td>
+                <td colspan="2">2.5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pressure Angle</td>
+                <td>
+                    <include from="Snippets.topic" element-id="alpha_n"/>
+                </td>
+                <td>-</td>
+                <td colspan="2">20°</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Helix Angle</td>
+                <td>
+                    <include from="Greek.topic" element-id="beta"/>
+                </td>
+                <td>-</td>
+                <td colspan="2">10.964°</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Number of Teeth</td>
+                <td>
+                    <include from="Snippets.topic" element-id="z"/>
+                </td>
+                <td>-</td>
+                <td>20(R)</td>
+                <td>-(L)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Normal Coefficient of Profile Shift</td>
+                <td>
+                    <include from="Snippets.topic" element-id="x_n"/>
+                </td>
+                <td>-</td>
+                <td>0.0000</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Height of Pitch Line</td>
+                <td>
+                    <include from="Snippets.topic" element-id="H"/>
+                </td>
+                <td>-</td>
+                <td>-</td>
+                <td>27.5</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Radial Pressure Angle</td>
+                <td>
+                    <include from="Snippets.topic" element-id="alpha_t"/>
+                </td>
+                <td>
+                    <include from="Snippets.topic" element-id="RadialPressureAngleFormula"/>
+                </td>
+                <td colspan="2">20.34160°</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Mounting Distance</td>
+                <td>
+                    <include from="Snippets.topic" element-id="a_x"/>
+                </td>
+                <td>
+                    <include from="Snippets.topic"
+                             element-id="WorkingCentreDistanceForProfileShiftedHelicalRackFormula"/>
+                </td>
+                <td>52.9656</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pitch Diameter</td>
+                <td>
+                    <include from="Snippets.topic" element-id="d"/>
+                </td>
+                <td>
+                    <include from="Snippets.topic" element-id="PitchDiameterHelicalFormula"/>
+                </td>
+                <td>50.929565</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Base Diameter</td>
+                <td>
+                    <include from="Snippets.topic" element-id="d_b"/>
+                </td>
+                <td>
+                    <include from="Snippets.topic" element-id="BaseDiameterHelicalFormula"/>
+                </td>
+                <td colspan="2">47.75343</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Addendum</td>
+                <td>
+                    <include from="Snippets.topic" element-id="h_a"/>
+                </td>
+                <td>
+                    <include from="Snippets.topic" element-id="AddendumForProfileShiftedHelicalRackFormula"/>
+                </td>
+                <td>2.500</td>
+                <td>2.500</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Whole Depth</td>
+                <td>
+                    <include from="Snippets.topic" element-id="h"/>
+                </td>
+                <td>
+                    <include from="Snippets.topic" element-id="WholeDepthForProfileShiftedHelicalRackFormula"/>
+                </td>
+                <td colspan="2">5.625</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Outside Diameter</td>
+                <td>
+                    <include from="Snippets.topic" element-id="d_a"/>
+                </td>
+                <td>
+                    <include from="Snippets.topic" element-id="OutsideDiameterForPositiveShiftSpurFormula"/>
+                </td>
+                <td>55.929</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Root Diameter</td>
+                <td>
+                    <include from="Snippets.topic" element-id="d_f"/>
+                </td>
+                <td>
+                    <include from="Snippets.topic" element-id="RootDiameterForPositiveShiftSpurFormula"/>
+                </td>
+                <td>44.929</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </chapter>
+</topic>

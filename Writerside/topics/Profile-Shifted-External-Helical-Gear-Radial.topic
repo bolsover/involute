@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Profile Shifted Helical Gear - Radial" id="Profile-Shifted-External-Helical-Gear-Radial">
+        <link-summary>Example and formulae for the calculation of profile shifted helical gears.</link-summary>
+    <img src="StandardHelicalGear.png" alt="Standard Helical gear" height="255"/>
+    <chapter title="Positive Shifted Helical Gear - Radial" id="calculation-of-positive-shifted-helical-gear_radial"
+             collapsible="true" default-state="expanded">
+
+        <table>
+            <tr>
+                <td>No.</td>
+                <td>Item</td>
+                <td>Symbol</td>
+                <td>Formula</td>
+                <td>Pinion</td>
+                <td>Gear</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Module</td>
+                <td>
+                    <include from="Snippets.topic" element-id="m_t"/>
+                </td>
+                <td>-</td>
+                <td colspan="2">3</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pressure Angle</td>
+                <td>
+                    <include from="Snippets.topic" element-id="alpha_t"/>
+                </td>
+                <td>-</td>
+                <td colspan="2">20°</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Helix Angle</td>
+                <td>
+                    <include from="Greek.topic" element-id="beta"/>
+                </td>
+                <td>-</td>
+                <td colspan="2">30°</td>
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Number of Teeth</td>
+                <td>
+                    <include from="Snippets.topic" element-id="z1,z2"/>
+                </td>
+                <td>-</td>
+                <td>12(L)</td>
+                <td>60(R)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Radial Coefficient of Profile Shift</td>
+                <td>
+                    <include from="Snippets.topic" element-id="xt1,xt2"/>
+                </td>
+                <td>-</td>
+                <td >0.34462</td>
+                <td>0.0000</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Involute Function <i><include from="Snippets.topic" element-id="alpha_wt"/></i></td>
+                <td>
+                    <include from="Snippets.topic" element-id="RadialWorkingInvoluteFunction"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="RadialWorkingInvoluteRadialFormula"/></td>
+                <td colspan="2">0.0183886</td>
+
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Radial Working Pressure Angle</td>
+                <td>
+                    <include from="Snippets.topic" element-id="alpha_wt"/>
+                </td>
+                <td>See calculation below</td>
+                <td colspan="2">21.3975</td>
+
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Centre Distance Increment Factor</td>
+                <td>
+                    <include from="Snippets.topic" element-id="y"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="CentreDistanceIncrementFactorForPositiveShiftHelicalFormula"/></td>
+                <td colspan="2">0.33333</td>
+
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Centre Distance</td>
+                <td>
+                    <include from="Snippets.topic" element-id="a_x"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="WorkingCentreDistanceForPositiveShiftRadialFormula"/></td>
+                <td colspan="2">109.000</td>
+
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Standard Pitch Diameter</td>
+                <td>
+                    <include from="Snippets.topic" element-id="d"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="PitchDiameterRadialFormula"/></td>
+                <td>36.000</td>
+                <td>180.000</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Base Diameter</td>
+                <td>
+                    <include from="Snippets.topic" element-id="d_b"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="BaseDiameterHelicalFormula"/></td>
+                <td>33.8289</td>
+                <td>169.1447</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Working Pitch Diameter</td>
+                <td>
+                    <include from="Snippets.topic" element-id="d_w"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="WorkingPitchDiameterForPositiveShiftHelicalFormula"/></td>
+                <td>36.3333</td>
+                <td>181.6667</td>
+            </tr>
+            <tr>
+                <td rowspan="2">13</td>
+                <td rowspan="2">Addendum</td>
+                <td>
+                    <include from="Snippets.topic" element-id="h_a1"/>
+                </td>
+                <td>
+                    <include from="Snippets.topic" element-id="Addendum1ForPositiveShiftRadialFormula"/>
+                </td>
+                <td>4.000</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>
+                    <include from="Snippets.topic" element-id="h_a2"/>
+                </td>
+                <td>
+                    <include from="Snippets.topic" element-id="Addendum2ForPositiveShiftRadialFormula"/>
+                </td>
+                <td>-</td>
+                <td>2.966</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Whole Depth</td>
+                <td>
+                    <include from="Snippets.topic" element-id="h"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="WholeDepthForPositiveShiftRadialFormula"/></td>
+                <td colspan="2">6.716</td>
+
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Outside Diameter</td>
+                <td>
+                    <include from="Snippets.topic" element-id="d_a"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="OutsideDiameterForPositiveShiftSpurFormula"/></td>
+                <td>44.000</td>
+                <td>185.932</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Root Diameter</td>
+                <td>
+                    <include from="Snippets.topic" element-id="d_f"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="RootDiameterForPositiveShiftSpurFormula"/></td>
+                <td>30.468</td>
+                <td>172.500</td>
+            </tr>
+        </table>
+    </chapter>
+
+    <chapter title="Positive Shifted Helical Gear (Radial)(b)" id="calculation-of-positive-shifted-helical-gear_radial_b" collapsible="true" default-state="expanded">
+        <table>
+            <tr>
+                <td>No.</td>
+                <td>Item</td>
+                <td>Symbol</td>
+                <td>Formula</td>
+                <td colspan="2">Example</td>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Centre Distance</td>
+                <td>
+                    <include from="Snippets.topic" element-id="a_x"/>
+                </td>
+                <td>-</td>
+                <td colspan="2">109.000</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Centre Distance Increment Factor</td>
+                <td>
+                    <include from="Snippets.topic" element-id="y"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="CoefficientOfCentreDistanceIncreaseFormula"/></td>
+                <td colspan="2">0.33333</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Radial Working Pressure Angle</td>
+                <td>
+                    <include from="Snippets.topic" element-id="alpha_wt"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="WorkingPressureAngleRadialFormula"/></td>
+                <td colspan="2">21.39752°</td>
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sum Coefficient of Profile Shift</td>
+                <td>
+                    <include from="Snippets.topic" element-id="xt1+xt2"/>
+                </td>
+                <td><include from="Snippets.topic" element-id="SumCoefficientOfProfileShiftHelicalFormula"/></td>
+                <td colspan="2">0.34462</td>
+
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Normal Coefficient of Profile Shift</td>
+                <td>
+                    <include from="Snippets.topic" element-id="xt1,xt2"/>
+                </td>
+                <td>-</td>
+                <td >0.34462</td>
+                <td >0.0000</td>
+            </tr>
+        </table>
+    </chapter>
+</topic>

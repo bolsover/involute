@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Pandoc.Settings">
+    <option name="pathToImages" value="D:\WordImages" />
+    <option name="pathToPandoc" value="D:\pandoc-3.1.9\pandoc.exe" />
+  </component>
+</project>

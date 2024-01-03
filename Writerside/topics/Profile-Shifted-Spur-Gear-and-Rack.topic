@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Profile Shifted Spur Gear and Rack" id="Profile-Shifted-Spur-Gear-and-Rack">
+    <link-summary>Example and formulae for the calculation of profile shifted spur gear and rack.</link-summary>
+    <chapter title="Profile Shifted Spur Gear and Rack" id="profile-shifted-spur-gear-and-rack" collapsible="true" default-state="expanded">
+        <table>
+            <tr>
+                <td>No.</td>
+                <td>Item</td>
+                <td>Symbol</td>
+                <td>Formula</td>
+                <td>Spur Gear</td>
+                <td>Rack</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Module</td>
+                <td> <include from="Snippets.topic" element-id="m"/></td>
+                <td>Design Parameter</td>
+                <td colspan="2">3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pressure Angle</td>
+                <td><include from="Greek.topic" element-id="alpha"/></td>
+                <td>Design Parameter</td>
+                <td colspan="2">20°</td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Number of Teeth</td>
+                <td><include from="Snippets.topic" element-id="z"/></td>
+                <td>Design Parameter</td>
+                <td>12</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Coefficient of Profile Shift</td>
+                <td><include from="Snippets.topic" element-id="x"/></td>
+                <td>Design Parameter</td>
+                <td>0.6</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Height of Pitch Line</td>
+                <td><include from="Snippets.topic" element-id="H"/></td>
+                <td>Design Parameter</td>
+                <td>-</td>
+                <td>32.000</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Working Pressure Angle</td>
+                <td><include from="Snippets.topic" element-id="alpha_w"/></td>
+                <td>-</td>
+                <td colspan="2">20°</td>
+
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Mounting Distance</td>
+                <td><include from="Snippets.topic" element-id="a_x"/></td>
+                <td><include from="Snippets.topic" element-id="WorkingCentreDistanceForProfileShiftedSpurRackFormula"/></td>
+                <td colspan="2">51.800</td>
+
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Pitch Diameter</td>
+                <td><include from="Snippets.topic" element-id="d"/></td>
+                <td><include from="Snippets.topic" element-id="zm"/></td>
+                <td>36.000</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Base Diameter</td>
+                <td><include from="Snippets.topic" element-id="d_b"/></td>
+                <td><include from="Snippets.topic" element-id="BaseDiameterFormula"/></td>
+                <td>33.829</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Working Pitch Diameter</td>
+                <td><include from="Snippets.topic" element-id="d_w"/></td>
+                <td><include from="Snippets.topic" element-id="WorkingPitchDiameterForProfileShiftedSpurRackFormula"/></td>
+                <td>36.000</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Addendum</td>
+                <td><include from="Snippets.topic" element-id="h_a"/></td>
+                <td><include from="Snippets.topic" element-id="AddendumForProfileShiftedSpurRackFormula"/></td>
+                <td>4.800</td>
+                <td>3.000</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Whole Depth</td>
+                <td><include from="Snippets.topic" element-id="h"/></td>
+                <td><include from="Snippets.topic" element-id="WholeDepthForProfileShiftedSpurRackFormula"/></td>
+                <td colspan="2">6.750</td>
+
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Outside Diameter</td>
+                <td><include from="Snippets.topic" element-id="d_a"/></td>
+                <td><include from="Snippets.topic" element-id="OutsideDiameterForPositiveShiftSpurFormula"/></td>
+                <td>45.600</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Root Diameter</td>
+                <td><include from="Snippets.topic" element-id="d_f"/></td>
+                <td><include from="Snippets.topic" element-id="RootDiameterForPositiveShiftSpurFormula"/></td>
+                <td>32.100</td>
+                <td>-</td>
+            </tr>
+        </table>
+        </chapter>
+</topic>

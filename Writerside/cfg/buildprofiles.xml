@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables></variables>
+    <build-profile instance="involute">
+        <variables>
+            <noindex-content>false</noindex-content>
+            <header-logo>SpurGear.png</header-logo>
+            <product-web-url>http://www.bolsover.com</product-web-url>
+
+        </variables>
+    </build-profile>
+
+</buildprofiles>
