@@ -26,7 +26,6 @@
             <td>
                 <include from="Snippets.topic" element-id="m"/>
             </td>
-
             <td>-</td>
             <td colspan="2">2.5</td>
         </tr>
